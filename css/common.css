@@ -9,13 +9,16 @@
     flex-direction: row;
     justify-content: space-around;
     list-style: none;
+    color: white;
 }
 
 .nav-li {
+    padding: 15px 0px 15px 0px;
 }
 
 .nav-li:hover {
-    color: #6441a5;
+    font-size: 30px;
+    text-shadow: 2px 2px 2px gray;
 }
 
 .aside-ul {
@@ -31,7 +34,22 @@
 }
 
 .aside-li:hover {
-    background-color: #6441a5;
+    background-color: #815fc0;
     color: white;
     text-shadow: 2px 2px 2px gray;
+}
+
+.section-box {
+    display: flex;
+}
+
+.footer-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.footer-div {
+    font-weight: bold;
+    color: white;
 }
