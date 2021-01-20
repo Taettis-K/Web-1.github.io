@@ -1,0 +1,37 @@
+.project-title {
+    font-size: 64px;
+    text-align: center;
+}
+
+.nav-ul {
+    font-size: 24px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style: none;
+}
+
+.nav-li {
+}
+
+.nav-li:hover {
+    color: #6441a5;
+}
+
+.aside-ul {
+    font-size: 24px;
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+}
+
+.aside-li {
+    text-align: center;
+    padding: 15px 0px 15px 0px;
+}
+
+.aside-li:hover {
+    background-color: #6441a5;
+    color: white;
+    text-shadow: 2px 2px 2px gray;
+}
